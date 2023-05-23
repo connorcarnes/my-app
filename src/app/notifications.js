@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Flashbar, {
   FlashbarProps,
 } from "@cloudscape-design/components/flashbar";
-import { useDisclaimerFlashbarItem } from "./commons/disclaimer-flashbar-item";
+import { useDisclaimerFlashbarItem } from "./disclaimer-flashbar-item";
 
 function useNotifications() {
   const disclaimerItem = useDisclaimerFlashbarItem(dismissNotification);

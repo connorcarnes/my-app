@@ -6,12 +6,12 @@ import Input from "@cloudscape-design/components/input";
 import SideNavigation from "@cloudscape-design/components/side-navigation";
 import TopNavigation from "@cloudscape-design/components/top-navigation";
 
-import "./styles/base.scss";
-import "./styles/top-navigation.scss";
+import "../shared/styles/base.scss";
+import "../shared/styles/top-navigation.scss";
 
 import logo from "./logo.svg";
 import { Notifications } from "./notifications";
-import { TrainingTable } from "./trainingTable";
+import { TrainingTable } from "../train/table";
 
 const navItems = [
   { type: "link", text: "Train", href: "#/train" },
